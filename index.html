@@ -8,6 +8,7 @@
     <title>Portafolio Ing. Santiago</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/index.min.js"></script>
 </head>
 <body>
 
@@ -82,7 +83,7 @@
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-content">
-            <h1>Ing. Santiago Cardoso Vinasco</h1>
+            <h1>Santiago Cardoso Vinasco</h1>
             <p class="subtitle">Ingeniero en Sistemas</p>
             <p class="description">
                 Estudiante de Ingeniería en Sistemas – 8º semestre
@@ -381,9 +382,9 @@
                 </div>
 
                 <form class="contact-form" id="contactForm">
-                    <div class="form-group"><input type="text" placeholder="Tu nombre" required></div>
-                    <div class="form-group"><input type="email" placeholder="Tu email" required></div>
-                    <div class="form-group"><textarea placeholder="Tu mensaje" rows="5" required></textarea></div>
+                    <div class="form-group"><input type="text" name="user_name" placeholder="Tu nombre" required></div>
+                    <div class="form-group"><input type="email" name="user_email" placeholder="Tu email" required></div>
+                    <div class="form-group"><textarea name="message" placeholder="Tu mensaje" rows="5" required></textarea></div>
                     <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
                 </form>
             </div>

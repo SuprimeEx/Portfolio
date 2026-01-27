@@ -175,17 +175,34 @@ function createProjectCard(project) {
 // Formulario de contacto
 const contactForm = document.getElementById('contactForm');
 if (contactForm) {
+    // Inicializar EmailJS
+    emailjs.init('BmGRkxVz0gXbhWthd');
+    
     contactForm.addEventListener('submit', (e) => {
         e.preventDefault();
         
-        // Aquí puedes agregar lógica para enviar el formulario
-        // Por ahora, mostraremos una alerta
-        const formData = new FormData(contactForm);
+        const serviceID = 'service_oz91xgy';
+        const templateID = 'template_b4umwlr';
         
-        alert('¡Gracias por tu mensaje! Me pondré en contacto pronto.');
-        contactForm.reset();
+        // Mostrar estado de envío
+        const btn = contactForm.querySelector('button[type="submit"]');
+        const originalText = btn.textContent;
+        btn.textContent = 'Enviando...';
+        btn.disabled = true;
         
-        // TODO: Integrar con un servicio de email (EmailJS, Formspree, etc.)
+        emailjs.sendForm(serviceID, templateID, contactForm)
+            .then((response) => {
+                alert('¡Mensaje enviado correctamente! Me pondré en contacto pronto.');
+                contactForm.reset();
+                btn.textContent = originalText;
+                btn.disabled = false;
+            })
+            .catch((error) => {
+                console.error('Error:', error);
+                alert('Error al enviar el mensaje. Por favor, intenta de nuevo.');
+                btn.textContent = originalText;
+                btn.disabled = false;
+            });
     });
 }
 
