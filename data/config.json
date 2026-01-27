@@ -1,0 +1,20 @@
+{
+  "personal": {
+    "name": "Santiago Cardoso Vinasco",
+    "title": "Ingeniero en Sistemas | Desarrollador Web Junior",
+    "subtitle": "Estudiante de Ingeniería en Sistemas | 8º Semestre",
+    "email": "santiagocardoso245@gmail.com",
+    "phone": "+57-3106240634",
+    "location": "Colombia"
+  },
+  "social": {
+    "github": "https://github.com/SuprimeEx",
+    "linkedin": "https://www.linkedin.com/in/santiago-cardoso-vinasco-16475a243",
+    "twitter": ""
+  },
+  "about": {
+    "description": "Apasionado por el desarrollo web y la tecnología. Desarrollador Full-Stack Junior con experiencia en JavaScript, Angular y Java. Especializado en crear soluciones prácticas, eficientes y bien estructuradas.",
+    "specialization": "Desarrollo Web Full-Stack",
+    "education": "Ingeniería en Sistemas - 8º Semestre"
+  }
+}

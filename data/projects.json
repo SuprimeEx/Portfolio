@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "Portafolio Personal",
+    "description": "Portafolio profesional con diseño moderno, modal interactivo y tarjetas de habilidades con efecto flip. Construcción con HTML5, CSS3 y JavaScript vanilla.",
+    "tags": ["HTML5", "CSS3", "JavaScript"],
+    "icon": "fas fa-briefcase",
+    "github": "https://github.com/SuprimeEx",
+    "live": ""
+  },
+  {
+    "id": 2,
+    "title": "Mi Primer Angular",
+    "description": "Aplicación frontend desarrollada con Angular. Gestión de usuarios, componentes reutilizables y servicios HTTP. Interfaz responsiva y moderna.",
+    "tags": ["Angular", "TypeScript", "RxJS"],
+    "icon": "fab fa-angular",
+    "github": "https://github.com/SuprimeEx",
+    "live": ""
+  },
+  {
+    "id": 3,
+    "title": "Sistema de Juego de Bolos",
+    "description": "Aplicación de escritorio desarrollada en Java con lógica orientada a objetos. Gestión de jugadores, puntuaciones y estadísticas del juego.",
+    "tags": ["Java", "POO", "Swing"],
+    "icon": "fab fa-java",
+    "github": "https://github.com/SuprimeEx/Bowling",
+    "live": ""
+  },
+  {
+    "id": 4,
+    "title": "ICCA - Software de Facturación",
+    "description": "Sistema integral de facturación y gestión de personas. Backend con Java, gestión de datos y arquitectura escalable. Proyecto académico en desarrollo.",
+    "tags": ["Java", "Facturación", "Base de Datos"],
+    "icon": "fas fa-file-invoice-dollar",
+    "github": "",
+    "live": ""
+  },
+  {
+    "id": 5,
+    "title": "Sistema de Gestión - Java",
+    "description": "Aplicación backend de gestión de empleados y nómina. Implementación de POO avanzado, persistencia de datos y lógica de negocio robusta.",
+    "tags": ["Java", "POO", "Gestión"],
+    "icon": "fas fa-users",
+    "github": "",
+    "live": ""
+  }
+]

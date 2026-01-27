@@ -1,0 +1,27 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Dependencias (si en futuro usas node)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Archivos temporales
+.env
+.env.local
+*.tmp
+
+# Build output
+dist/
+build/
+out/
+
+# Configuración local
+local.config.js

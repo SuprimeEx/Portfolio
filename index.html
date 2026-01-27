@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio Ing. Santiago">
+    <meta name="author" content="Santiago Cardoso Vinasco">
+    <title>Portafolio Ing. Santiago</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Profile Modal -->
+    <div class="profile-modal" id="profileModal">
+        <button class="close-modal" id="closeModal">&times;</button>
+        <div class="profile-card">
+            <img src="images/yo.png" alt="Foto de Perfil" class="profile-photo">
+            <h2>Santiago Cardoso Vinasco</h2>
+            <p class="role">Ingeniero en Sistemas | Desarrollador Web Full-Stack Junior</p>
+            <p class="bio">
+                Apasionado por el desarrollo web y la tecnología, estudiante de 8º semestre de Ingeniería en Sistemas,
+                con enfoque en la creación de soluciones prácticas, eficientes y bien estructuradas.
+                <br><br>
+                Me desempeño como desarrollador Full-Stack Junior, con experiencia en JavaScript, Angular y Java,
+                participando en proyectos donde integro interfaces intuitivas con una lógica backend clara, mantenible
+                y orientada a buenas prácticas.
+                <br><br>
+                Me caracterizo por el aprendizaje constante, la responsabilidad, la adaptabilidad y el compromiso
+                con la mejora continua tanto técnica como profesional.
+            </p>
+            <div class="profile-stats">
+                <div class="stat">
+                    <div class="number">8</div>
+                    <div class="label">Semestre</div>
+                </div>
+                <div class="stat">
+                    <div class="number">5+</div>
+                    <div class="label">Proyectos</div>
+                </div>
+                <div class="stat">
+                    <div class="number">7</div>
+                    <div class="label">Skills</div>
+                </div>
+            </div>
+            <div class="profile-contact">
+                <a href="https://github.com/SuprimeEx" target="_blank" rel="noopener noreferrer" class="contact-icon" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/santiago-cardoso-vinasco-16475a243" target="_blank" rel="noopener noreferrer" class="contact-icon" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="mailto:santiagocardoso245@gmail.com" class="contact-icon" title="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo">
+                <img src="images/yo.png" alt="Logo" class="logo-image" id="logoImage" title="Haz clic para ver más información">
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Inicio</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">Sobre mí</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Proyectos</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Habilidades</a></li>
+                <li class="nav-item"><a href="#certificates" class="nav-link">Certificados</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link contact-btn">Contacto</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Ing. Santiago Cardoso Vinasco</h1>
+            <p class="subtitle">Ingeniero en Sistemas</p>
+            <p class="description">
+                Estudiante de Ingeniería en Sistemas – 8º semestre
+                <br> Desarrollador Web Full-Stack Junior
+                <br> Apasionado por la tecnología y la construcción de soluciones digitales
+                <br> En constante aprendizaje y crecimiento profesional
+            </p>
+
+            <p class="subtitle">Mantenimiento de Sistemas</p>
+            <p class="description">
+                Mantenimiento preventivo y correctivo de equipos de cómputo
+                <br> Optimización de sistemas operativos y software
+                <br> Diagnóstico y solución de problemas técnicos
+                <br> Soporte integral en hardware y software
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">Ver Proyectos</a>
+                <a href="#contact" class="btn btn-secondary">Contactarme</a>
+                <a href="assets/Hoja de vida.pdf" download class="btn btn-primary">Descargar CV</a>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/SuprimeEx" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/santiago-cardoso-vinasco-16475a243" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre mí</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Soy desarrollador web junior con una fuerte motivación por la tecnología y el desarrollo de software.
+                        Actualmente curso el 8º semestre de Ingeniería en Sistemas, donde he fortalecido mis bases técnicas,
+                        analíticas y de resolución de problemas.
+                    </p>
+                    <p>
+                        Trabajo principalmente con JavaScript y Angular para el desarrollo frontend, y cuento con experiencia
+                        en Java para el desarrollo backend. Me enfoco en escribir código claro, organizado y funcional,
+                        aplicando buenas prácticas desde las primeras etapas del desarrollo.
+                    </p>
+                    <p>
+                        Mi objetivo es continuar creciendo como desarrollador, participar en proyectos reales que aporten valor,
+                        adquirir experiencia profesional y seguir fortaleciendo tanto mis habilidades técnicas como personales.
+                    </p>
+                </div>
+                <div class="about-info">
+                    <div class="info-item">
+                        <h3>Formación</h3>
+                        <p>Ingeniería en Sistemas – 8º Semestre (En curso)</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>Experiencia</h3>
+                        <p>Desarrollador Web Junior | Proyectos académicos y personales</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>Especialización</h3>
+                        <p>Desarrollo Web Full-Stack Junior</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Habilidades</h2>
+            <div class="skills-grid">
+
+                <div class="skill-card">
+                    <div class="skill-card-inner">
+                        <div class="skill-card-front">
+                            <i class="fab fa-html5"></i>
+                            <h3>HTML5</h3>
+                            <p>Maquetación semántica</p>
+                        </div>
+                        <div class="skill-card-back">
+                            <p>Uso de HTML5 semántico para crear estructuras limpias, accesibles y optimizadas para SEO.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-card-inner">
+                        <div class="skill-card-front">
+                            <i class="fab fa-css3-alt"></i>
+                            <h3>CSS3</h3>
+                            <p>Diseño responsive</p>
+                        </div>
+                        <div class="skill-card-back">
+                            <p>Diseño responsive con Flexbox y Grid, creando interfaces modernas, adaptables y visualmente atractivas.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-card-inner">
+                        <div class="skill-card-front">
+                            <i class="fab fa-js-square"></i>
+                            <h3>JavaScript</h3>
+                            <p>Lógica e interactividad</p>
+                        </div>
+                        <div class="skill-card-back">
+                            <p>Desarrollo de funcionalidades dinámicas e interactivas mediante manipulación del DOM y lógica de negocio.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-card-inner">
+                        <div class="skill-card-front">
+                            <i class="fas fa-tasks"></i>
+                            <h3>Macros</h3>
+                            <p>Marcos de trabajo</p>
+                        </div>
+                        <div class="skill-card-back">
+                            <p>Conocimiento básico de marcos de trabajo como Scrum, aplicados en proyectos académicos para la organización de tareas, trabajo en equipo y cumplimiento de objetivos.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-card-inner">
+                        <div class="skill-card-front">
+                            <i class="fab fa-java"></i>
+                            <h3>Java</h3>
+                            <p>Backend y POO</p>
+                        </div>
+                        <div class="skill-card-back">
+                            <p>Programación orientada a objetos en Java para lógica backend, manejo de datos y APIs REST.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-card-inner">
+                        <div class="skill-card-front">
+                            <i class="fab fa-git-alt"></i>
+                            <h3>Git</h3>
+                            <p>Control de versiones</p>
+                        </div>
+                        <div class="skill-card-back">
+                            <p>Manejo de repositorios Git, control de versiones y flujo de trabajo colaborativo.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-card-inner">
+                        <div class="skill-card-front">
+                            <i class="fab fa-python"></i>
+                            <h3>Python</h3>
+                            <p>Scripts y automatización</p>
+                        </div>
+                        <div class="skill-card-back">
+                            <p>Desarrollo de scripts y automatización de tareas. Manejo de variables, estructuras de control, funciones y creación de programas eficientes y claros.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-card-inner">
+                        <div class="skill-card-front">
+                            <i class="fas fa-tools"></i>
+                            <h3>Manejo de TIC</h3>
+                            <p>Mantenimiento de sistemas</p>
+                        </div>
+                        <div class="skill-card-back">
+                            <p>Mantenimiento preventivo y correctivo de equipos, optimización de sistemas y soporte técnico.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Proyectos</h2>
+            <div class="projects-grid" id="projectsContainer">
+                <div class="loading"><p>Cargando proyectos...</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates">
+        <div class="container">
+            <h2 class="section-title">Certificados</h2>
+            <div class="certificates-list">
+                <div class="cert-accordion">
+                    <button class="cert-header">
+                        <span class="cert-title">Certificado Prosperidad Social</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="cert-content">
+                        <p>Reconocimiento por participación en programas de impacto social</p>
+                        <button class="cert-btn view-cert-btn" data-pdf="assets/Certificado-Prosperidad social.pdf">Ver Certificado <i class="fas fa-eye"></i></button>
+                    </div>
+                </div>
+
+                <div class="cert-accordion">
+                    <button class="cert-header">
+                        <span class="cert-title">CSS - Certificado</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="cert-content">
+                        <p>Certificación en CSS avanzado y diseño responsive</p>
+                        <button class="cert-btn view-cert-btn" data-pdf="assets/CSS.pdf">Ver Certificado <i class="fas fa-eye"></i></button>
+                    </div>
+                </div>
+
+                <div class="cert-accordion">
+                    <button class="cert-header">
+                        <span class="cert-title">Java - SoloLearn</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="cert-content">
+                        <p>Certificación en Java fundamentals de SoloLearn</p>
+                        <button class="cert-btn view-cert-btn" data-pdf="assets/Java-Sololearn.pdf">Ver Certificado <i class="fas fa-eye"></i></button>
+                    </div>
+                </div>
+
+                <div class="cert-accordion">
+                    <button class="cert-header">
+                        <span class="cert-title">Python - Certificado</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="cert-content">
+                        <p>Certificación en Python y programación estructurada</p>
+                        <button class="cert-btn view-cert-btn" data-pdf="assets/Python.pdf">Ver Certificado <i class="fas fa-eye"></i></button>
+                    </div>
+                </div>
+
+                <div class="cert-accordion">
+                    <button class="cert-header">
+                        <span class="cert-title">Introducción al Análisis de Datos</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="cert-content">
+                        <p>Curso en análisis de datos y procesamiento de información</p>
+                        <button class="cert-btn view-cert-btn" data-pdf="assets/Introduccion al Analisis de datos.pdf">Ver Certificado <i class="fas fa-eye"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Viewer Modal -->
+    <div id="certViewerModal" class="cert-viewer-modal">
+        <div class="cert-viewer-content">
+            <button class="cert-viewer-close">&times;</button>
+            <iframe id="certViewerFrame" src="" frameborder="0"></iframe>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <p class="contact-intro">¿Tienes una pregunta o una propuesta? ¡No dudes en contactarme!</p>
+
+            <div class="contact-content">
+                <div class="contact-info">
+
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p><a href="mailto:santiagocardoso245@gmail.com">santiagocardoso245@gmail.com</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Teléfono</h3>
+                            <p><a href="tel:+57-3106240634">+57-3106240634</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Ubicación</h3>
+                            <p>Colombia</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group"><input type="text" placeholder="Tu nombre" required></div>
+                    <div class="form-group"><input type="email" placeholder="Tu email" required></div>
+                    <div class="form-group"><textarea placeholder="Tu mensaje" rows="5" required></textarea></div>
+                    <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Santiago Cardoso Vinasco. Todos los derechos reservados.</p>
+            <div class="footer-social">
+                <a href="https://github.com/SuprimeEx" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/santiago-cardoso-vinasco-16475a243" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
