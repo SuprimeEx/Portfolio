@@ -1,12 +1,12 @@
 [
-  {
+ {
     "id": 1,
-    "title": "Portafolio Personal",
-    "description": "Portafolio profesional con diseño moderno, modal interactivo y tarjetas de habilidades con efecto flip. Construcción con HTML5, CSS3 y JavaScript vanilla.",
-    "tags": ["HTML5", "CSS3", "JavaScript"],
+    "title": "Portafolio Web Personal",
+    "description": "Portafolio web personal con diseño moderno y enfoque visual limpio. Incluye modales interactivos, tarjetas con efecto flip y animaciones suaves, desarrollado con HTML5, CSS3 y JavaScript vanilla.",
+    "tags": ["HTML5", "CSS3", "JavaScript", "Web", "Frontend", "Responsive", "JSON"],
     "icon": "fas fa-briefcase",
-    "github": "https://github.com/SuprimeEx",
-    "live": ""
+    "github": "https://github.com/SuprimeEx/Portfolio",
+    "live": "https://portfolio-suprimeexs-projects.vercel.app"
   },
   {
     "id": 2,
@@ -21,7 +21,7 @@
     "id": 3,
     "title": "Sistema de Juego de Bolos",
     "description": "Aplicación de escritorio desarrollada en Java con lógica orientada a objetos. Gestión de jugadores, puntuaciones y estadísticas del juego.",
-    "tags": ["Java", "POO", "Swing"],
+    "tags": ["Java", "POO", "Swing", "Gestión de datos", "Lógica de juego"],
     "icon": "fab fa-java",
     "github": "https://github.com/SuprimeEx/Bowling",
     "live": ""
@@ -29,8 +29,8 @@
   {
     "id": 4,
     "title": "ICCA - Software de Facturación",
-    "description": "Sistema integral de facturación y gestión de personas. Backend con Java, gestión de datos y arquitectura escalable. Proyecto académico en desarrollo.",
-    "tags": ["Java", "Facturación", "Base de Datos"],
+    "description": "Sistema de facturación innovador enfocado en las personas y sus relaciones, no en los objetos como suele hacer la tecnología tradicional. Busca una gestión más humana, clara y cercana, con una arquitectura backend en Java pensada para crecer sin perder orden.",
+    "tags": ["Java", "Facturación", "Filtros", "POO", "Manejo de archivos", "Estructuras de datos", "MVC"],
     "icon": "fas fa-file-invoice-dollar",
     "github": "",
     "live": ""
@@ -39,7 +39,7 @@
     "id": 5,
     "title": "Sistema de Gestión - Java",
     "description": "Aplicación backend de gestión de empleados y nómina. Implementación de POO avanzado, persistencia de datos y lógica de negocio robusta.",
-    "tags": ["Java", "POO", "Gestión"],
+    "tags": ["Java", "POO", "Gestión", "Nómina", "Persistencia de datos", "Lógica de negocio", "Estructuras de datos"],
     "icon": "fas fa-users",
     "github": "",
     "live": ""

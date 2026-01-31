@@ -171,7 +171,7 @@ function createProjectCard(project) {
     const tagsHTML = project.tags.map(tag => `<span class="tag">${tag}</span>`).join('');
     const linksHTML = `
         ${project.github ? `<a href="${project.github}" target="_blank"><i class="fab fa-github"></i> GitHub</a>` : ''}
-        ${project.live ? `<a href="${project.live}" target="_blank"><i class="fas fa-globe"></i> Demo</a>` : ''}
+        ${project.live ? `<a href="${project.live}" target="_blank"><i class="fas fa-globe"></i> Web</a>` : ''}
     `;
 
     card.innerHTML = `
